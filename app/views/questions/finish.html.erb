@@ -1,0 +1,13 @@
+<h2>You answered <%= @correct_questions%> / <%=@total_questions %> questions correctly.</h2>
+
+<% @history.each do |latest_log|%>
+    <P><%=latest_log%></P>
+<%end%>
+
+<%= form_tag action: :reload do %>
+    <%= submit_tag "Return to Start" %>
+<%end%>
+
+<%= form_tag action: :repeat do %>
+    <%= submit_tag "Redo The Quiz" %>
+<%end%>

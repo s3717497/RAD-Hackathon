@@ -1,0 +1,3013 @@
+[{
+        "id": 707,
+        "question": "Which is the environment variable which holds your home directory information?",
+        "description": null,
+        "answers": {
+            "answer_a": "HOME.",
+            "answer_b": "ROOT.",
+            "answer_c": "ADMINISTRATOR",
+            "answer_d": "It's generated dynamically",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }, {
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 223,
+        "question": "Which keyword is used with the UPDATE command to change the value?",
+        "description": null,
+        "answers": {
+            "answer_a": "CHANGE",
+            "answer_b": "MODIFY",
+            "answer_c": "ADD",
+            "answer_d": "SET",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "MySQL"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 750,
+        "question": "What is Minikube",
+        "description": null,
+        "answers": {
+            "answer_a": "Specification of a Kubernetes API object in JSON or YAML format",
+            "answer_b": "A pod object that a kubelet uses to represent a static pod",
+            "answer_c": "A tool for running Kubernetes locally",
+            "answer_d": "An abstraction used by Kubernetes to support multiple virtual clusters on the same physical cluster",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 692,
+        "question": "Which service runs on each Kubernetes node and ensures containers are running in a pod?",
+        "description": null,
+        "answers": {
+            "answer_a": "etcd",
+            "answer_b": "kubelet",
+            "answer_c": "scheduler",
+            "answer_d": "kubeadm",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": "The kubelet is the primary \u201cnode agent\u201d that runs on each node. It can register the node with the apiserver using one of: the hostname; a flag to override the hostname; or specific logic for a cloud provider.",
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 1071,
+        "question": "From which file does the command `free` takes it's information",
+        "description": null,
+        "answers": {
+            "answer_a": "\/proc\/meminfo",
+            "answer_b": "\/proc\/freemem",
+            "answer_c": "\/proc\/memfree",
+            "answer_d": "\/dev\/meminfo",
+            "answer_e": "\/dev\/freemem",
+            "answer_f": "\/dev\/memfree"
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 652,
+        "question": "What is the She-bang line in a shell script",
+        "description": null,
+        "answers": {
+            "answer_a": "#",
+            "answer_b": "#!",
+            "answer_c": "!#",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 711,
+        "question": "Are arrays supported in shell scripts?",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": "Yes but only under certain conditions",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 680,
+        "question": "How can you display the top 10 number of lines of a file?",
+        "description": null,
+        "answers": {
+            "answer_a": "head \u2212n 10 file.txt",
+            "answer_b": "head -f 10 file.txt",
+            "answer_c": "head --display-only 10 file.txt",
+            "answer_d": "head -show 10 file.txt",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 31,
+        "question": "What command is used to count the total number of lines, words, and characters contained in a file?",
+        "description": null,
+        "answers": {
+            "answer_a": "count p",
+            "answer_b": "wc",
+            "answer_c": "wcount",
+            "answer_d": "countw",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 5,
+        "question": "What does the command top show",
+        "description": null,
+        "answers": {
+            "answer_a": "The space usage",
+            "answer_b": "The memory usage",
+            "answer_c": "The current processes alongside information about them",
+            "answer_d": "Nothing, it's not a command",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 162,
+        "question": "Which HTML element is used to specify a header for a document or section?",
+        "description": null,
+        "answers": {
+            "answer_a": "<top>",
+            "answer_b": "<header>",
+            "answer_c": "<head>",
+            "answer_d": "<section>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "HTML"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 720,
+        "question": "Cronjobs in kubernetes run in",
+        "description": null,
+        "answers": {
+            "answer_a": "UTC only",
+            "answer_b": "Based on NTP settings",
+            "answer_c": "Master node local timezone",
+            "answer_d": "GMT only",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 749,
+        "question": "What is the Container Runtime?",
+        "description": null,
+        "answers": {
+            "answer_a": "Software that is responsible for running containers",
+            "answer_b": "An API object that manages a replicated application",
+            "answer_c": "Stored instance of a Container that holds a set of software needed to run an application",
+            "answer_d": "A command line tool for communicating with a Kubernetes API server",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 12,
+        "question": "Which command is used to create an empty file.",
+        "description": null,
+        "answers": {
+            "answer_a": "mtfile",
+            "answer_b": "mkfile",
+            "answer_c": "file",
+            "answer_d": "touch",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_d",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 648,
+        "question": "Which command can be used to determine file type by its content?",
+        "description": null,
+        "answers": {
+            "answer_a": "file",
+            "answer_b": "ls \u2013l",
+            "answer_c": "type",
+            "answer_d": "None of the above.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 824,
+        "question": "test123",
+        "description": null,
+        "answers": {
+            "answer_a": "test",
+            "answer_b": "test2",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Angular"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 15,
+        "question": "Which command to use for complete details of a command on the shell?",
+        "description": null,
+        "answers": {
+            "answer_a": "help",
+            "answer_b": "man",
+            "answer_c": "?",
+            "answer_d": "info",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 748,
+        "question": "The API server is also known as:",
+        "description": null,
+        "answers": {
+            "answer_a": "kubeapi",
+            "answer_b": "kube-server",
+            "answer_c": "k8s-apiserver",
+            "answer_d": "kube-apiserver",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 1080,
+        "question": "Which command do we need to use if we want to see all packages installed on the system (Ubuntu)",
+        "description": null,
+        "answers": {
+            "answer_a": "dpkg -l",
+            "answer_b": "packageall -l",
+            "answer_c": "dpkg -a",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    }, {
+        "id": 645,
+        "question": "How can we find the process name from its process id? Assume the Proccess ID is 1",
+        "description": null,
+        "answers": {
+            "answer_a": "ps \u2013p 1",
+            "answer_b": "find 1",
+            "answer_c": "top 1",
+            "answer_d": "get 1",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 27,
+        "question": "What is the most common procedure for compiling programs under Linux?",
+        "description": null,
+        "answers": {
+            "answer_a": "compile file_name",
+            "answer_b": "gcc file_name",
+            "answer_c": ".\/configure && make && make install",
+            "answer_d": "make file_name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 661,
+        "question": "Which key combination can yank a line in vi?",
+        "description": null,
+        "answers": {
+            "answer_a": "yw",
+            "answer_b": "yc",
+            "answer_c": "yy",
+            "answer_d": "yl",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 752,
+        "question": "How will you pass and access arguments to a script in Linux\/Bash?",
+        "description": null,
+        "answers": {
+            "answer_a": "scriptName \u201cArg1\u201d \u201cArg2\u201d\u2026.\u201dArgn\u201d and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_b": "scriptName -arg \u201cArg1\u201d \u201cArg2\u201d\u2026.\u201dArgn\u201d and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_c": "scriptName \"Arg1 Arg2\u2026.Argn\u201d and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_d": "scriptName \u201cArg1\u201d \u201cArg2\u201d\u2026.\u201dArgn\u201d and can be accessed inside the script as $Arg1 , $Arg2 .. $Argn.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 29,
+        "question": "On which file is stored the configuration of which DNS server the machine will use?",
+        "description": null,
+        "answers": {
+            "answer_a": "\/etc\/resolv.conf",
+            "answer_b": "\/etc\/dns.conf",
+            "answer_c": "\/var\/dns",
+            "answer_d": "By running the command show dns",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 659,
+        "question": "Which command can be used to display file contents in octal?",
+        "description": null,
+        "answers": {
+            "answer_a": "od",
+            "answer_b": "octal",
+            "answer_c": "oshow",
+            "answer_d": "oct",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 706,
+        "question": "What is the purpose of \u2018at\u2019 command?",
+        "description": null,
+        "answers": {
+            "answer_a": "To execute a command\/commands at a specific time.",
+            "answer_b": "To execute a command\/commands at a specific request.",
+            "answer_c": "To execute a command\/commands on a specific condition.",
+            "answer_d": "To execute a command\/commands only when the user has logged in.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 235,
+        "question": "Which arithmetic operator you can not use?",
+        "description": null,
+        "answers": {
+            "answer_a": "+",
+            "answer_b": "-",
+            "answer_c": "*",
+            "answer_d": "\\",
+            "answer_e": "%",
+            "answer_f": "All are valid"
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "MySQL"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 20,
+        "question": "When looking for all the processes running on a Linux system, what command should you use?",
+        "description": null,
+        "answers": {
+            "answer_a": "service",
+            "answer_b": "oterm",
+            "answer_c": "ps",
+            "answer_d": "xrun",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 54,
+        "question": "What are the types of links in Linux?",
+        "description": null,
+        "answers": {
+            "answer_a": "soft and hard links",
+            "answer_b": "open and close links",
+            "answer_c": "in-line and external links",
+            "answer_d": "links and highlights",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 1079,
+        "question": "Which command do we need to execute to check the available repos in yum (CentOS)",
+        "description": null,
+        "answers": {
+            "answer_a": "yum repolist",
+            "answer_b": "yum listrepo",
+            "answer_c": "yum searchrepo",
+            "answer_d": "yum reposearch",
+            "answer_e": "yum reposhow",
+            "answer_f": "yum showrepo"
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 683,
+        "question": "Expand UFS in context of file system?",
+        "description": null,
+        "answers": {
+            "answer_a": "UNIX File system.",
+            "answer_b": "Linux File System.",
+            "answer_c": "Plain File System.",
+            "answer_d": "Linux Failing System.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 744,
+        "question": "How to mark a node called my-node as schedulable in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl schedulable my-node",
+            "answer_b": "kubectl up my-node",
+            "answer_c": "kubectl available my-node",
+            "answer_d": "kubectl uncordon my-node",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 35,
+        "question": "The \/etc\/shadow file in Linux is used to store:",
+        "description": null,
+        "answers": {
+            "answer_a": "filesystem information",
+            "answer_b": "various password information",
+            "answer_c": "root user shell",
+            "answer_d": "command aliases",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 696,
+        "question": "Which command can be used to execute a command\/s repeatedly for the given schedule?",
+        "description": null,
+        "answers": {
+            "answer_a": "crontab",
+            "answer_b": "while",
+            "answer_c": "for",
+            "answer_d": "set",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 53,
+        "question": "What happens when you use this 'kill %s' command?",
+        "description": null,
+        "answers": {
+            "answer_a": "System processes will be stopped",
+            "answer_b": "All jobs with command beginning with \u2018s\u2019 will be terminated",
+            "answer_c": "The last job with 's' will be terminated",
+            "answer_d": "The first job with 's' will be terminated",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 28,
+        "question": "Where is Linux user list stored?",
+        "description": null,
+        "answers": {
+            "answer_a": "\/etc\/users",
+            "answer_b": "\/usr\/local\/users",
+            "answer_c": "By running the command show users",
+            "answer_d": "None of the above.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_d",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 536,
+        "question": "HTML documents are saved in",
+        "description": null,
+        "answers": {
+            "answer_a": "Special binary format",
+            "answer_b": "Machine language codes",
+            "answer_c": "ASCII text",
+            "answer_d": "None of above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "HTML"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 660,
+        "question": "What is the option to mention field separator for the command \u2018cut\u2019",
+        "description": null,
+        "answers": {
+            "answer_a": "-f",
+            "answer_b": "-c",
+            "answer_c": "-d",
+            "answer_d": "\\0",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 26,
+        "question": "What is a daemon?",
+        "description": null,
+        "answers": {
+            "answer_a": "It is a generic name for e-mail servers on Linux. The most famous one is mailer-daemon",
+            "answer_b": "It is a program that keeps running on the background after it is called, answering to requests done by users and other programs.",
+            "answer_c": "It is an antivirus for Linux.",
+            "answer_d": "It is the generic name for any Linux server.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 39,
+        "question": "The most common way to display the network settings of network interfaces on a Linux system is by using which command?",
+        "description": null,
+        "answers": {
+            "answer_a": "ipconfig",
+            "answer_b": "ipconfig\/all",
+            "answer_c": "show ipv4",
+            "answer_d": "ifconfig",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_d",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }, {
+        "id": 50,
+        "question": "A low-level utility that can be used for creating\/restoring filesystem backup copies in Linux is called:",
+        "description": null,
+        "answers": {
+            "answer_a": "fsutil",
+            "answer_b": "diskpart",
+            "answer_c": "dd",
+            "answer_d": "format",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 700,
+        "question": "Explain the purpose of nohup command.",
+        "description": null,
+        "answers": {
+            "answer_a": "To keep the command running even after the user who issues the command has logged out.",
+            "answer_b": "To start the command after the user who issues the command has logged out.",
+            "answer_c": "To start the command after a certain statement has been approved.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 22,
+        "question": "tcpdump is a packet-sniffing Linux command that offers administrators the ability to monitor what?",
+        "description": null,
+        "answers": {
+            "answer_a": "Server performance",
+            "answer_b": "Network traffic and activity",
+            "answer_c": "Application performance",
+            "answer_d": "Files and directories",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 578,
+        "question": "How do we access the value of 'd' later? $a = array(     'a',     3 => 'b',     1 => 'c',     'd' );",
+        "description": null,
+        "answers": {
+            "answer_a": "$a[0]",
+            "answer_b": "$a[3]",
+            "answer_c": "$a[2]",
+            "answer_d": "$a[1]",
+            "answer_e": "$a[4]",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "true",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "PHP"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 734,
+        "question": "When patching resources in Kubernetes, how to partially update a node?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl patch node k8s-node-1 -p '{\"spec\":{\"unschedulable\":false}}'",
+            "answer_b": "kubectl patch node k8s-node-1 -p '{\"patch\":{\"unschedulable\":true}}'",
+            "answer_c": "kubectl patch node k8s-node-1 -p '{\"spec\":{\"unschedulable\":true}}'",
+            "answer_d": "kubectl patch node k8s-node-1 -pr '{\"spec\":{\"unschedulable\":true}}'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 736,
+        "question": "How to scale a replicaset named 'foo' to 3?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl scale --replicas=3 rs\/foo",
+            "answer_b": "kubectl up --replicas=3 rs\/foo",
+            "answer_c": "kubectl update --replicas=3 rs\/foo",
+            "answer_d": "kubectl deploy  --replicas=3 rs\/foo",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 704,
+        "question": "What is LILO w.r.t linux?",
+        "description": null,
+        "answers": {
+            "answer_a": "LILO means linux loader, which loads the kernel into memory and starts the OS.",
+            "answer_b": "LILO means linux loader, which loads the OS into memory and starts the GUI.",
+            "answer_c": "LILO means linux loader, which loads the GUI into memory so the user can see what's going on.",
+            "answer_d": "LILO means linux loader, which loads the software into memory and starts the kernel then the OS.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 687,
+        "question": "Which command can be used by the administrator to bring the system into single user mode?",
+        "description": null,
+        "answers": {
+            "answer_a": "init s",
+            "answer_b": "single",
+            "answer_c": "init",
+            "answer_d": "single s",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 17,
+        "question": "Which of the following runlevel will reboot the system?",
+        "description": null,
+        "answers": {
+            "answer_a": "5",
+            "answer_b": "6",
+            "answer_c": "3",
+            "answer_d": "4",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 754,
+        "question": "Which command will duplicate each line in a file?",
+        "description": null,
+        "answers": {
+            "answer_a": "sed 'p' < filename",
+            "answer_b": "sed 'd' < filename",
+            "answer_c": "cp 'p' < filename",
+            "answer_d": "cp 'd' < filename",
+            "answer_e": "cat 'p' < filename",
+            "answer_f": "cat 'd' < filename"
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 664,
+        "question": "Choose the example for block special file",
+        "description": null,
+        "answers": {
+            "answer_a": "DVD-ROM",
+            "answer_b": "Serial modem",
+            "answer_c": "Console terminal",
+            "answer_d": "Virtual terminal",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 23,
+        "question": "What Linux command is the modern replacement for Telnet, and allows admins to connect to a specific network port?",
+        "description": null,
+        "answers": {
+            "answer_a": "dhclient",
+            "answer_b": "ethtool",
+            "answer_c": "ip",
+            "answer_d": "ncat",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_d",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 735,
+        "question": "In Kubernetes how to create a service for a replicated Nginx, which serves on port 80 and connects to the containers on port 8000?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl expose rc nginx --port=8080 --target-port=80",
+            "answer_b": "kubectl rc nginx --port=80 --target-port=8000",
+            "answer_c": "kubectl expose nginx --port=80 --target-port=8000",
+            "answer_d": "kubectl expose rc nginx --port=80 --target-port=8000",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 710,
+        "question": "Distinguish between cmp and diff commands?",
+        "description": null,
+        "answers": {
+            "answer_a": "\u2018diff\u2019 shows all the differences from two file whereas \u2018cmp\u2019 shows the only the first occurring difference. The said is applicable only if differences between the files do exist.",
+            "answer_b": "\u2018cmp\u2019 shows all the differences from two file whereas \u2018diff\u2019 shows the only the first occurring difference. The said is applicable only if differences between the files do exist.",
+            "answer_c": "\u2018diff\u2019 shows the last difference from two file whereas \u2018cmp\u2019 shows the only the first occurring difference. The said is applicable only if differences between the files do exist.",
+            "answer_d": "\u2018cmp\u2019 shows the last difference from two file whereas \u2018diff\u2019 shows the only the first occurring difference. The said is applicable only if differences between the files do exist.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "BASH"
+        }, {
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 24,
+        "question": "Systemd replaced which Linux command for mounting and automounting file systems?",
+        "description": null,
+        "answers": {
+            "answer_a": "\/etc\/fstab and autofs",
+            "answer_b": "\/esc\/fdtab and autff",
+            "answer_c": "\/etc\/ftab and autofs",
+            "answer_d": "\/etc\/fstab and autom",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 25,
+        "question": "What are the most common Linux boot managers?",
+        "description": null,
+        "answers": {
+            "answer_a": "Bootmanager\/Bootflag",
+            "answer_b": "Bootmand\/MBR",
+            "answer_c": "LILO\/GRUB",
+            "answer_d": "Bootd\/init.d",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 36,
+        "question": "A virtual filesystem created dynamically by Linux that contains information about system resources is:",
+        "description": null,
+        "answers": {
+            "answer_a": "\/proc",
+            "answer_b": "\/boot",
+            "answer_c": "\/mkdir",
+            "answer_d": "\/system",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Linux"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    }, {
+        "id": 738,
+        "question": "How to delete all pods in Kubernetes matching the awk pattern1 or pattern2?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl get nodes -n myns --no-headers=true | awk '\/pattern1|pattern2\/{print $1}' | xargs  kubectl delete -n myns pod",
+            "answer_b": "kubectl print pods  -n myns --no-headers=true | awk '\/pattern1\/2|pattern2\/{print $1}' | xargs  kubectl delete -n myns pod",
+            "answer_c": "kubectl print pods  -n myns --no-headers=true | awk '\/pattern1\/2|pattern2\/{print $1}' | xargs  kubectl remove -n myns pod",
+            "answer_d": "kubectl get pods  -n myns --no-headers=true | awk '\/pattern1|pattern2\/{print $1}' | xargs  kubectl delete -n myns pod",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "Linux",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 1054,
+        "question": "Which command would you use to gather facts with Ansible?",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible your_server -m gather",
+            "answer_b": "ansible your_server -m setup",
+            "answer_c": "ansible your_server -m info",
+            "answer_d": "ansible your_server -m fact",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 915,
+        "question": "What are the responsibilities of a node controller?",
+        "description": null,
+        "answers": {
+            "answer_a": "To assign a CIDR block to the nodes",
+            "answer_b": "To monitor the health of the nodes",
+            "answer_c": "To maintain the list of nodes",
+            "answer_d": "All of the mentioned",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 965,
+        "question": "Kubelet is a?",
+        "description": null,
+        "answers": {
+            "answer_a": "A node agent that manages pods and their containers",
+            "answer_b": "A smaller version of Kubernetes",
+            "answer_c": "Software that is used to run containers outside of pods",
+            "answer_d": "A device that collects data in an organized manner for easy access",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 897,
+        "question": "Replication Controllers and Deployment Controllers are part of",
+        "description": null,
+        "answers": {
+            "answer_a": "API Controller Manager",
+            "answer_b": "Etcd manager",
+            "answer_c": "Master Controller Manager",
+            "answer_d": "Kubeadm",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 903,
+        "question": "The command to create Kubernetes service is",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl expose",
+            "answer_b": "kubectl deploy",
+            "answer_c": "kubectl run",
+            "answer_d": "kubectl set service",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1044,
+        "question": "Which argument do you need to specify in order to run a specific Ansible module?",
+        "description": null,
+        "answers": {
+            "answer_a": "--modules",
+            "answer_b": "-m",
+            "answer_c": "-ml",
+            "answer_d": "--ansible-module",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 904,
+        "question": "Kube-apiserver on kubernetes master is designed to scale.",
+        "description": null,
+        "answers": {
+            "answer_a": "Vertically",
+            "answer_b": "Horizontally",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1049,
+        "question": "Which command will you use to run a playbook called install.yaml with Ansible?",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible-playbook install.yml",
+            "answer_b": "ansible install.yml",
+            "answer_c": "ansible --playbook install.yml",
+            "answer_d": "ansible -p install.yml",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 933,
+        "question": "What is a load balancer in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "load balancer is a method for seperating service",
+            "answer_b": "load balancer is a method for exposing service",
+            "answer_c": "load balancer is a method for partitioning service",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 953,
+        "question": "Egress is incorrectly speed Ingress",
+        "description": null,
+        "answers": {
+            "answer_a": "false",
+            "answer_b": "true",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 966,
+        "question": "What is the purpose of a ReplicaSet?",
+        "description": null,
+        "answers": {
+            "answer_a": "To prevent clones from invading other clusters",
+            "answer_b": "To monitor and respond to environmental latency",
+            "answer_c": "To maintain a stable set of replica Pods running at any given time",
+            "answer_d": "To create and maintain volumes",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1056,
+        "question": "Which of the following values would give you the hostname of the remote host in your Ansible Playbook?",
+        "description": null,
+        "answers": {
+            "answer_a": "\"{{ ansible_hostname }}\"",
+            "answer_b": "\"{{ hostname }}\"",
+            "answer_c": "\"{{ server_hostname }}\"",
+            "answer_d": "\"{{ host }}\"",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 930,
+        "question": "How can a company deal with a monolithic codebase issue?",
+        "description": null,
+        "answers": {
+            "answer_a": "By transitioning from a monolithic codebase to a microservice design so that different microservices can be classified as containers.",
+            "answer_b": "By building a large Docker image containing the monolithic codebase and deploying it as a single container to Kubernetes",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1055,
+        "question": "Which command would you use to get the hostname of a remote host with Ansible",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible your_server -m setup -a field=*hostname*",
+            "answer_b": "ansible your_server -m env -a filter=*hostname*",
+            "answer_c": "ansible your_server -m setup -a filter=*hostname*",
+            "answer_d": null,
+            "answer_e": "ansible your_server -m setup -a get=*hostname*",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1041,
+        "question": "What language is an Ansible playbooks are written in by default?",
+        "description": null,
+        "answers": {
+            "answer_a": "YAML format",
+            "answer_b": "JSON format",
+            "answer_c": "XML format",
+            "answer_d": "HTML format",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1047,
+        "question": "Which Ansible command will you use to install Apache on Ubuntu host?",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible your_host_name_here -b -m apt -a \"name=apache2 state=latest\"",
+            "answer_b": "ansible your_host_name_here -b -m yum -a \"name=apache2 state=latest\"",
+            "answer_c": "ansible your_host_name_here -b -m wget -a \"name=apache2 state=latest\"",
+            "answer_d": "ansible your_host_name_here apt install \"name=apache2 state=latest\"",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1043,
+        "question": "What are Ansible ad-hoc commands?",
+        "description": null,
+        "answers": {
+            "answer_a": "Ansible ad-hoc commands are commands which helps you execute simple tasks without the need of creating playbooks",
+            "answer_b": "Ansible ad-hoc commands are also known as Ansible playbooks",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 955,
+        "question": "How to list all pods that are either labelled with env=development or with env=production",
+        "description": null,
+        "answers": {
+            "answer_a": "$ kubectl get pods -l 'env in (production, development)'",
+            "answer_b": "$ kubectl get pods 'env in (production, development)'",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1039,
+        "question": "With Ansible you can only use SSH key as it does not work with SSH password.",
+        "description": "You could either use SSH keys or you could use the -k argument and use SSH password instead.",
+        "answers": {
+            "answer_a": "true",
+            "answer_b": "false",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    }, {
+        "id": 1057,
+        "question": "What do you need to specify in your Ansible playbook to stop gathering facts?",
+        "description": null,
+        "answers": {
+            "answer_a": "facts_gathering: no",
+            "answer_b": "gather: no",
+            "answer_c": "facts: no",
+            "answer_d": "gather_facts: no",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "DevOps"
+        }],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1017,
+        "question": "What Is The Use Of Kube-controller-manager?",
+        "description": null,
+        "answers": {
+            "answer_a": "kube-controller-manager embeds the core control loop which is a non-terminating loop that regulates the state of the system.",
+            "answer_b": "kube-controller-manager embeds the core control loop which is a terminating loop that regulates the state of the system.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 910,
+        "question": "What used to be called a minion in Kubernetes cluster?",
+        "description": null,
+        "answers": {
+            "answer_a": "A component of the master node.",
+            "answer_b": "A monitoring engine used widely in Kubernetes.",
+            "answer_c": "Docker container service.",
+            "answer_d": "A worker node.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 942,
+        "question": "How do you create secrets in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl create secret generic db-user-pass --from-file=.\/username.txt --from-file=.\/password.txt",
+            "answer_b": "kubectl generate secret generic db-user-pass --from-file=.\/username.txt --from-file=.\/password.txt",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 1010,
+        "question": "While starting minikube, a configuration file, gets created by default inside what directory on Linux?",
+        "description": null,
+        "answers": {
+            "answer_a": "\/tmp",
+            "answer_b": "\/home\/user\/.kube",
+            "answer_c": "\/root",
+            "answer_d": "\/home\/user",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 972,
+        "question": "What is a Kubernetes volume?",
+        "description": null,
+        "answers": {
+            "answer_a": "The software within an OS that controls capacity allocation for nodes",
+            "answer_b": "A directory for the data accessible to containers in a pod",
+            "answer_c": "Layering software that puts apps into compartments for easier deployment",
+            "answer_d": "Code that enables two software programs to communicate",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 922,
+        "question": "What is the role of kube-apiserver and kube-scheduler?",
+        "description": null,
+        "answers": {
+            "answer_a": "The kube \u2013 apiserver follows the scale-out architecture and, is the front-end of the master node control panel.",
+            "answer_b": "The kube \u2013 apiserver follows the scale-out architecture and, is the back-end of the master node control panel.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 950,
+        "question": "What do you mean by \u201cRolling Update\u201d?",
+        "description": null,
+        "answers": {
+            "answer_a": "Rolling updates helps the user to replace an existing replica controller to newer one",
+            "answer_b": "Rolling updates helps the user to replace the node pool to a newer one",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 952,
+        "question": "What are the functions of Replication controller?",
+        "description": null,
+        "answers": {
+            "answer_a": "It is responsible to control and administer the lifecycle of the pod.",
+            "answer_b": "It helps the user to check the running status of the pod",
+            "answer_c": "It is responsible to monitor and verify whether the allowed number of pod replicas were running",
+            "answer_d": "It is responsible for routing the ingress traffic",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 969,
+        "question": "What is the function of labels?",
+        "description": null,
+        "answers": {
+            "answer_a": "To classify functions",
+            "answer_b": "To tag containers and link them together in groups",
+            "answer_c": "To assign functions to pods",
+            "answer_d": "To be ignored by millennials",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 1014,
+        "question": "______ is distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines.",
+        "description": null,
+        "answers": {
+            "answer_a": "A Kubernetes pod",
+            "answer_b": "A Kubernetes service",
+            "answer_c": "A Kubernetes volume",
+            "answer_d": "etcd",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 945,
+        "question": "Which of the following commands would show you the status of a Kubernetes deployment?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl rollout stats deployment\/Deployment",
+            "answer_b": "kubectl rollout status deployment\/Deployment",
+            "answer_c": "kubectl rollout log deployment\/Deployment",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 905,
+        "question": "Which of the K8s resources do not associate with any namespace?",
+        "description": null,
+        "answers": {
+            "answer_a": "DaemonSets",
+            "answer_b": "Persistent Volumes",
+            "answer_c": "ReplicaSets",
+            "answer_d": "Nodes",
+            "answer_e": "Services",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 1012,
+        "question": "What is the most common type of container runtime used in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "rkt",
+            "answer_b": "Docker",
+            "answer_c": "containerd",
+            "answer_d": "lxd",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 927,
+        "question": "Which ones are a core Kubernetes object?",
+        "description": null,
+        "answers": {
+            "answer_a": "\u201cPods,\u201d \u201cServices,\u201d \u201cVolumes,\u201d",
+            "answer_b": "\u201cSwarm,\u201d \u201cPilot,\u201d \u201cNode,\u201d",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 926,
+        "question": "What is a Headless Service?",
+        "description": null,
+        "answers": {
+            "answer_a": "Headless Service is similar to that of a \u2018Normal\u2019 services but does not have a Cluster IP.",
+            "answer_b": "Headless Service is similar to that of a \u2018Normal\u2019 services but has a Cluster IP.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 916,
+        "question": "What are the responsibilities of Replication Controller?",
+        "description": null,
+        "answers": {
+            "answer_a": "Update or delete multiple pods with a single command",
+            "answer_b": "Helps to achieve the desired state",
+            "answer_c": "Creates a new pod, if the existing pod crashes",
+            "answer_d": "All of the mentioned",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 962,
+        "question": "Which of the following are true for a pod in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "A Pod represents processes running on your Cluster",
+            "answer_b": "Pods are the simplest units in the Kubernetes object model that you create or deploy",
+            "answer_c": "A pod is the same as a container",
+            "answer_d": "You can have only 1 container running in 1 pod",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 901,
+        "question": "Kubernetes is written in",
+        "description": null,
+        "answers": {
+            "answer_a": "C++",
+            "answer_b": "Go",
+            "answer_c": "Python",
+            "answer_d": "Java spring framework",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 937,
+        "question": "What is a deployment in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "Deployments represent a set of multiple, identical Pods with no unique identities",
+            "answer_b": "Deployments represent a set of multiple, identical Nodes with no unique identities",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    }, {
+        "id": 1015,
+        "question": "What Are Kubernetes Controllers?",
+        "description": null,
+        "answers": {
+            "answer_a": "Kubernetes controllers are Replicaset, Deployment controller.",
+            "answer_b": "Kubernetes controllers are Surverless, Deployment capacitor.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 925,
+        "question": "What is Ingress network?",
+        "description": null,
+        "answers": {
+            "answer_a": "Ingress network is a collection of rules that acts as an entry point to the Kubernetes cluster.",
+            "answer_b": "Ingress network is a routing outh that acts as an exit point to the Kubernetes cluster.",
+            "answer_c": "Ingress network is a http node that acts as an entry point to the Kubernetes cluster.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    }, {
+        "id": 918,
+        "question": "What did the 1.8 version of Kubernetes introduce?",
+        "description": null,
+        "answers": {
+            "answer_a": "Taints and Tolerations",
+            "answer_b": "Cluster level",
+            "answer_c": "Logging Secrets",
+            "answer_d": "Federated Clusters",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    }, {
+        "id": 968,
+        "question": "Which description best fits a DaemonSet?",
+        "description": null,
+        "answers": {
+            "answer_a": "A way to run a copy of a pod on all or some nodes",
+            "answer_b": "A method to manage clusters of pods",
+            "answer_c": "A channel through which to pass information between two or more nodes",
+            "answer_d": "A system to connect nodes and pods",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    }, {
+        "id": 928,
+        "question": "Which of the following stores Kubernetes cluster data?",
+        "description": null,
+        "answers": {
+            "answer_a": "Kube-API server",
+            "answer_b": "\u201cKubelet",
+            "answer_c": "ETCD",
+            "answer_d": "None of the mentioned",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    }, {
+        "id": 951,
+        "question": "Which statement is true for Replica set?",
+        "description": null,
+        "answers": {
+            "answer_a": "Replica set is considered as a substitute to the replication controller. The prime function of replica set is to assure the number of pod replicas running.",
+            "answer_b": "Replica set is considered as the legacy replication controller. The prime function of replica set is to remove the number of pod replicas running.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [{
+            "name": "Kubernetes"
+        }],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    }
+]

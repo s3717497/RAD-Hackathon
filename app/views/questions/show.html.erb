@@ -1,0 +1,23 @@
+
+
+<h2><%=@question.title%></h2>
+<%= form_tag( submit_question_path(@question)) do %>
+    <% @question.answers.each do |answer|%>
+        <div class="container">
+            <% unless @question.multiple_correct_answers %>
+                <%= radio_button_tag "options[]", answer.id %>
+            <% else %>
+                <%= check_box_tag "options[]", answer.id %> 
+            <% end %>
+            <%= answer.option %>
+            <% if answer.correct %>
+              ---This is the correct answer
+            <% end%>
+        </div>
+    <%end%>
+    <br>
+    <%= hidden_field_tag "question_id", @question.id %>
+    <%= submit_tag "Submit" %>
+<%end%>
+
+<%= flash[:notice] %>

@@ -1,0 +1,21 @@
+<h1>Welcome to the Quiz!</h1>
+
+<%= form_tag action: :start_quiz do %>
+
+    <h3>Questions</h3>                 <%# helper methods QuestionController%>
+        <%= number_field_tag(:limit, default_limit, min: 4, max: 8) %>
+        
+    <h3>Difficulty</h3>
+        <%= select_tag(:difficulty, options_for_select(Question.difficulties, default_difficulty)) %>
+        
+    <h3>Categories</h3>
+    <%= flash[:categories_notice] %>
+    <% Question.categories.each do |category|%>
+        <div class="container">
+            <%= category %> <%= check_box_tag("categories[]", category, default_category?(category)) %>
+        </div>
+    <%end%>
+
+    <%= submit_tag "Start" %>
+    
+<%end%>
