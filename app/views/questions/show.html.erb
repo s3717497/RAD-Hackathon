@@ -4,7 +4,8 @@
 <%= form_tag( submit_question_path(@question)) do %>
     <% @question.answers.each do |answer|%>
         <div class="container">
-            <% unless @question.multiple_correct_answers %>
+            <%# see method - doesnt use variable %>
+            <% unless @question.multiple_correct %>
                 <%= radio_button_tag "options[]", answer.id %>
             <% else %>
                 <%= check_box_tag "options[]", answer.id %> 

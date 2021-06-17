@@ -3,8 +3,6 @@ class QuestionsController < ApplicationController
   
   
   
-  # TODO: inital cookies default? multiple correct?
-  
   
   def start
   end
@@ -23,8 +21,6 @@ class QuestionsController < ApplicationController
       QuizAPI.api_response(category, default_difficulty, default_limit).map do |hash|
         q = create_question(hash)
         ['a','b','c','d','e','f'].each { |char| create_answer(q, hash, char) }
-        
-        puts "\n\n #{q.inspect}\n\n\n"
         q.question_id
         
       end
@@ -51,14 +47,8 @@ class QuestionsController < ApplicationController
   
   
 
-  # before show, check if session expired?
-  # set_question
   def show
-    # if not more_questions?
-    #   redirect_to start_questions_path
-    # puts "MOREQ UESTOIN #{more_questions?}"
-    # redirect_to
-    if correct_index(params[:i]) && more_questions?
+    if !correct_index(params[:id]) && !more_questions?
       redirect_to question_path(current_index)
     end
      @question = Question.find_by(question_id: question_id(current_index-1))
@@ -73,15 +63,7 @@ class QuestionsController < ApplicationController
       return redirect_to question_path(current_index)
     end
     
-    @question = Question.find_by(question_id: params[:question_id])
     add_answer_ids(params[:options]) 
-    # correct_selected = Answer.where(id: params[:options]).where(correct: true).count
-    # correct_answers = Answer.where(question: @question).where(correct: true).count 
-    # fully_correct = correct_answers.count == correct_answers.where(correct:true)
-    
-    
-    
-    
     redirect_to more_questions? ? question_path(next_index) : finish_questions_path
   end
   
@@ -98,10 +80,16 @@ class QuestionsController < ApplicationController
   
 
   def finish
+    if more_questions?
+      return redirect_to question_path(current_index)
+    end
     @correct_questions = 0
     answer_ids.count.times do |i|
-      # wrong impl, dont work for check box
-      @correct_questions += Answer.where(id: answer_ids[i-1], correct: true).count
+      @question = Answer.find_by(id: answer_ids[0]).question
+      correct_answers  = @question.answers.where(correct: true).count
+      correct_selected = Answer.where(id: answer_ids[i-1], correct: true).count
+      
+      @correct_questions += 1 if correct_answers == correct_selected
     end
     @total_questions = question_ids.count
     
@@ -109,12 +97,14 @@ class QuestionsController < ApplicationController
     log_history(@correct_questions, @total_questions, DateTime.now.strftime("%d/%m/%Y %H:%M"))
   end
 
+  # start from the beginning
   def reload
     Question.where(id: question_ids).destroy_all
     destroy_quiz
     redirect_to start_questions_path
   end
   
+  # redo same test
   def repeat
     repeat_quiz
     redirect_to question_path(current_index)
@@ -140,7 +130,7 @@ class QuestionsController < ApplicationController
       category: hash["category"],
       description: hash["description"],
       difficulty: hash["difficulty"],
-      multiple_correct_answers: hash["multiple_correct_answers"] == "true" 
+      multiple_correct_answers: hash["multiple_correct_answers"] == "true" # not relied on in the assignment
     )
   end
   

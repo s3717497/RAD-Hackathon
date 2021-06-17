@@ -103,11 +103,11 @@ module QuestionsHelper
     
     
     def more_questions?
-        current_index < question_ids.count
+        current_index && current_index < question_ids.count
     end
     
     def correct_index(param_id)
-        params[:id].to_i != current_index
+        params[:id].to_i == current_index
     end
     
     def current_index
