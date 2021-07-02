@@ -7,7 +7,7 @@ The app relies on an external database on [quizapi.io](https://quizapi.io) API, 
 
 ## Features
 
-You can view all features [here](..blob/master/RAD-Final%20Project-2021.pdf). I have completed all features uptil (not including) the HD+ level.
+You can view all features [here](RAD-Final%20Project-2021.pdf). I have completed all features uptil (not including) the HD+ level.
 
 ### Last deployment log:
 
